@@ -30,12 +30,24 @@ react-dom: é um pacote que contém os métodos necessários para manipular a á
 
 @types/react-dom: é um pacote que contém os tipos do ReactDOM
 
+eslint: é uma ferramenta de linting para JavaScript e TypeScript
+
+eslint-config-prettier: é um pacote que desabilita todas as regras que são desnecessárias ou que podem entrar em conflito com o Prettier
 
 
 
-
-
-ERROS ENCONTRADORS:
+ERROS ENCONTRADOS:
 
 Error: Child compilation failed:
   Module not found: Error: Can't resolve
+
+
+DeprecationWarning: '~/.eslintrc.*'
+
+
+No files matching the pattern "&&" were found.
+
+
+ESLint: 8.49.0
+You are linting ".", but all of the files matching the glob pattern "." are ignored.
+If you don't want to lint these files, remove the pattern "." from the list of arguments passed to ESLint.

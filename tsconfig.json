@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true, // suporte a sistemas de módulos commonjs
+    "jsx": "react", // como tratar os arquivos JSX
+    //   "module": "CommonJS",
+    "module": "esnext", // como transpilar os imports e exports do ES6
+    "moduleResolution": "node", // como resolver os módulos durante importação
+    "lib": [
+      // quais bibliotecas existem no ambiente de destino
+      "dom", // DOM e DOM.Iterable são para permitir que essas APIs sejam usadas em qualquer lugar
+      "esnext" // ESNext adiciona todas as definições de tipo para as novas APIs ES
+    ],
+    "strict": true, // habilita todas as verificações de tipo
+    "sourceMap": true, // habilita a geração de source maps
+    "target": "esnext" // configura a versão do ES que o código será transpilado
+  },
+  "exclude": [
+    // quais arquivos devem ser ignorados
+    "node_modules" // node_modules são ignorados por padrão
+  ]
+}
