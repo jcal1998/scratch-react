@@ -1,0 +1,41 @@
+@babel/core: pacote principal do babel, responsável por fazer a conversão do código
+
+babel-loader: é um loader do webpack que permite que o babel seja usado para converter o código JavaScript moderno em um código que o navegador entenda
+
+@babel/cli: é uma interface de linha de comando que permite que o babel seja usado a partir da linha de comando
+
+@babel/preset-env: é um preset que contém os pacotes do babel necessários para converter o código JavaScript moderno em um código que o navegador entenda
+
+@babel/preset-react: é um preset que contém os pacotes do babel necessários para converter o código React em um código que o navegador entenda
+
+@babel/preset-typescript: é um preset que contém os pacotes do babel necessários para converter o código TypeScript em um código que o navegador entenda
+
+webpack: é um empacotador de módulos para aplicações JavaScript modernas
+
+webpack-cli: é uma interface de linha de comando que permite que o webpack seja usado a partir da linha de comando
+
+webpack-dev-server: é um servidor de desenvolvimento para aplicações JavaScript modernas, que permite que a aplicação seja executada em um servidor local, parecido com nodemon
+
+html-webpack-plugin: The HtmlWebpackPlugin is the package that simplifies the creation of HTML files to serve your Webpack bundles. as mentioned above when Webpack bundles all our files, it can generate a single JavaScript (known as a bundle) that will be served along our HTML file. One of the cases you may want to use HtmlWebpackPlugin is the case where Webpack may bundle your JavaScript files and the name of the bundle changes every time it bundles. In this case, there is no way to predict the name of the bundle and include it in your index.html up front. In this case, you may have your own index.html and provide it to HtmlWebpackPlugin and when Webpack bundles it creates a new index.html from the one you provided and and the bundle from Webpack for you.
+
+css-loader: é um loader do webpack que permite que o webpack entenda arquivos CSS
+
+ts-loader: é um loader do webpack que permite que o webpack entenda arquivos TypeScript
+
+react: é uma biblioteca JavaScript para criar interfaces de usuário, que permite que o código JavaScript seja escrito de forma declarativa, ou seja, o código descreve o que deve ser feito, e não como deve ser feito.
+
+react-dom: é um pacote que contém os métodos necessários para manipular a árvore de elementos do DOM, como por exemplo, renderizar elementos na tela
+
+@types/react: é um pacote que contém os tipos do React
+
+@types/react-dom: é um pacote que contém os tipos do ReactDOM
+
+
+
+
+
+
+ERROS ENCONTRADORS:
+
+Error: Child compilation failed:
+  Module not found: Error: Can't resolve
