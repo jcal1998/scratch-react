@@ -51,3 +51,11 @@ No files matching the pattern "&&" were found.
 ESLint: 8.49.0
 You are linting ".", but all of the files matching the glob pattern "." are ignored.
 If you don't want to lint these files, remove the pattern "." from the list of arguments passed to ESLint.
+
+
+
+  nao funciona o eslintignore
+/Users/jolee/Git/scratch-react/webpack.config.js
+  3:27  error  Require statement not part of import statement  @typescript-eslint/no-var-requires
+  4:30  error  Require statement not part of import statement  @typescript-eslint/no-var-requires
+  5:14  error  Require statement not part of import statement  @typescript-eslint/no-var-requires

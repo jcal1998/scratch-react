@@ -1,10 +1,9 @@
-/* eslint-disable @typescript-eslint/explicit-function-return-type */
 import React, { useState } from 'react';
 
-const App = () => {
+const App: React.FC = (): JSX.Element => {
   const [counter, setCounter] = useState(0);
 
-  const handleClick = () => {
+  const handleClick = (): void => {
     setCounter(counter + 1);
   };
 
