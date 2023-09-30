@@ -12,7 +12,8 @@
     ],
     "strict": true, // habilita todas as verificações de tipo
     "sourceMap": true, // habilita a geração de source maps
-    "target": "esnext" // configura a versão do ES que o código será transpilado
+    "target": "esnext", // configura a versão do ES que o código será transpilado,
+    "types": ["node", "jest", "@testing-library/jest-dom"],
   },
   "exclude": [
     // quais arquivos devem ser ignorados

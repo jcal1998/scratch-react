@@ -72,3 +72,12 @@ If you don't want to lint these files, remove the pattern "." from the list of a
   3:27  error  Require statement not part of import statement  @typescript-eslint/no-var-requires
   4:30  error  Require statement not part of import statement  @typescript-eslint/no-var-requires
   5:14  error  Require statement not part of import statement  @typescript-eslint/no-var-requires
+
+
+
+metodos nao existem
+solucao: instalar @types, pois o typescript nao reconhece os metodos do jestm que estao setados diretamento no codigo sem importar
+
+property 'tobeinthedocument' does not exist on type 'jestmatchers htmlelement ' typescript
+solucao
+"types": ["node", "jest", "@testing-library/jest-dom"],
