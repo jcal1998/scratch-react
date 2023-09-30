@@ -34,6 +34,19 @@ eslint: é uma ferramenta de linting para JavaScript e TypeScript
 
 eslint-config-prettier: é um pacote que desabilita todas as regras que são desnecessárias ou que podem entrar em conflito com o Prettier
 
+@testing-library/react: é uma biblioteca que contém métodos para testar componentes React
+
+@testing-library/jest-dom: é uma biblioteca que contém métodos para testar componentes React, que são específicos para o Jest, como por exemplo, o toBeInTheDocument
+
+jest: é um framework de testes para JavaScript e TypeScript
+
+jest-environment-jsdom: é um pacote que contém o ambiente do Jest para testes em aplicações que utilizam o DOM
+
+eslint-plugin-jest: é um plugin do ESLint que contém as regras para testes com o Jest
+
+@types/jest: é um pacote que contém os tipos do Jest
+
+@types/jest-environment-jsdom: é um pacote que contém os tipos do jest-environment-jsdom
 
 
 ERROS ENCONTRADOS:
